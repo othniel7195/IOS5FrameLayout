@@ -14,6 +14,9 @@
 		D54428B71AF51CF500CD2840 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D54428B61AF51CF500CD2840 /* Images.xcassets */; };
 		D54428BA1AF51CF500CD2840 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D54428B81AF51CF500CD2840 /* LaunchScreen.xib */; };
 		D54428C61AF51CF600CD2840 /* FrameLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D54428C51AF51CF600CD2840 /* FrameLayoutTests.m */; };
+		D54428D31AF51D4D00CD2840 /* UIView+LayoutMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = D54428CF1AF51D4D00CD2840 /* UIView+LayoutMethods.m */; };
+		D54428D41AF51D4D00CD2840 /* UIView+AEBHandyAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D54428D11AF51D4D00CD2840 /* UIView+AEBHandyAutoLayout.m */; };
+		D54428D71AF51D5500CD2840 /* contentView.m in Sources */ = {isa = PBXBuildFile; fileRef = D54428D61AF51D5500CD2840 /* contentView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		D54428BF1AF51CF600CD2840 /* FrameLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrameLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D54428C41AF51CF600CD2840 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D54428C51AF51CF600CD2840 /* FrameLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FrameLayoutTests.m; sourceTree = "<group>"; };
+		D54428CF1AF51D4D00CD2840 /* UIView+LayoutMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LayoutMethods.m"; sourceTree = "<group>"; };
+		D54428D01AF51D4D00CD2840 /* UIView+LayoutMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LayoutMethods.h"; sourceTree = "<group>"; };
+		D54428D11AF51D4D00CD2840 /* UIView+AEBHandyAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AEBHandyAutoLayout.m"; sourceTree = "<group>"; };
+		D54428D21AF51D4D00CD2840 /* UIView+AEBHandyAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AEBHandyAutoLayout.h"; sourceTree = "<group>"; };
+		D54428D51AF51D5500CD2840 /* contentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = contentView.h; sourceTree = "<group>"; };
+		D54428D61AF51D5500CD2840 /* contentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = contentView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +72,12 @@
 		D544289D1AF51CF500CD2840 = {
 			isa = PBXGroup;
 			children = (
+				D54428CF1AF51D4D00CD2840 /* UIView+LayoutMethods.m */,
+				D54428D01AF51D4D00CD2840 /* UIView+LayoutMethods.h */,
+				D54428D11AF51D4D00CD2840 /* UIView+AEBHandyAutoLayout.m */,
+				D54428D21AF51D4D00CD2840 /* UIView+AEBHandyAutoLayout.h */,
+				D54428D51AF51D5500CD2840 /* contentView.h */,
+				D54428D61AF51D5500CD2840 /* contentView.m */,
 				D54428A81AF51CF500CD2840 /* FrameLayout */,
 				D54428C21AF51CF600CD2840 /* FrameLayoutTests */,
 				D54428A71AF51CF500CD2840 /* Products */,
@@ -219,9 +234,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D54428D71AF51D5500CD2840 /* contentView.m in Sources */,
 				D54428B21AF51CF500CD2840 /* ViewController.m in Sources */,
 				D54428AF1AF51CF500CD2840 /* AppDelegate.m in Sources */,
 				D54428AC1AF51CF500CD2840 /* main.m in Sources */,
+				D54428D31AF51D4D00CD2840 /* UIView+LayoutMethods.m in Sources */,
+				D54428D41AF51D4D00CD2840 /* UIView+AEBHandyAutoLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
